@@ -1,0 +1,139 @@
+body {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 25px;
+}
+
+.headerlinks a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 500px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-content a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 8px;
+}
+
+.right-content div {
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+}
+
+.right-content {
+    align-self: center;
+}
+
+/* Information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.informationheader {
+    align-self: center;
+}
+
+.informationheader h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    align-self: center;
+}
+
+.card {
+    display: flex;
+    border: solid 5px #3882F6;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.cardtext {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+}
+
+/* Quote */
+
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    align-self: center;
+}
+
+.author {
+    align-self: center;
+}
+
+.quotesection h1 {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 716px;
+}
